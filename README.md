@@ -1,3 +1,6 @@
+本项目是对《基于比较句的网络用户情感》中提出的“比较句情感分析”模型的实现。
+<br>其中的baiduSearch.py和baiduGetFile.py文件可以单独使用，用于在命令行进行百度搜索，每页显示结果的标题和摘要。
+
 # baiduSearch.py
 This script is used to browse the results returned by Baidu Search Engine in terminal. It takes the user_input as the keywords.
 <br>该脚本能在命令行动态查询百度搜索结果，关键词需要用户手动输入。
