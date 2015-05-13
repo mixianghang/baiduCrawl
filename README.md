@@ -1,6 +1,6 @@
 # baiduSearch.py
 This script is used to browse the results returned by Baidu Search Engine in terminal. It takes the user_input as the keywords.
-该脚本能在命令行动态查询百度搜索结果，关键词需要用户手动输入。
+<br>该脚本能在命令行动态查询百度搜索结果，关键词需要用户手动输入。
 
 # baiduGetFile.py
 This script is used to search and write all the searching results into local txt files for further research such as Natural Language Processing.
