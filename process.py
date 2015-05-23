@@ -112,7 +112,7 @@ def CompeteSent(sent_seg_list, contain_term):
 
 if __name__ == "__main__":
     # txtpath = '/Users/apple/Desktop/苹果比小米.txt'
-    # write_word_frequency('/Users/apple/Desktop/mydict.txt','/Users/apple/Desktop/myDiction.txt')
+    # write_word_frequency('/Users/apple/Desktop/mydict.txt','/Users/apple/Desktop/dict.txt')
     txtpath = raw_input(
         u'enter the absolute or relative abstract file path for process:')
     sents = cut_sentence(txtpath)
