@@ -23,17 +23,6 @@ class baidu_Search:
         str = pattern4.sub(u'',str)
         return str
         
-    def getPageCounts(self,htmlunicode):
-        # <div class="nums">百度为您找到相关结果约68,900,000个</div>
-        pattern = re.compile(r'<div class="nums">(.*?)</div>')
-        m = pattern.search(htmlunicode)
-        pagesCount = ''
-        if m:
-            pagesCount = m.group(1)
-        else:
-            print u'不好意思,未查询到任何结果!'     
-        return pagesCount
-            
     def getNextPageUrl(self,htmlunicode):
         pattern = re.compile(r'<div id="page"\s*>.*?<strong>.*?</strong><a href="(.*?)">')
         m = pattern.search(htmlunicode)
