@@ -26,7 +26,7 @@ class baidu_Search:
         
     def getPageCounts(self,htmlunicode):
         # <div class="nums">百度为您找到相关结果约68,900,000个</div>
-        pattern = re.compile(r'<div class="nums">(.*?)</div>')
+        pattern = re.compile(r'<div class="nums">.+?</div>(.*?)</div>')
         m = pattern.search(htmlunicode)
         pagesCount = ''
         if m:
