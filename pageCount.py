@@ -10,7 +10,7 @@ import time
 class baidu_Search:
     
     def getPageCounts(self,htmlunicode):
-        pattern = re.compile(r'<div class="nums">(.*?)</div>')
+        pattern = re.compile(r'<div class="nums">.+?</div>(.*?)</div>')
         m = pattern.search(htmlunicode)
         pagesCount = ''
         if m:
