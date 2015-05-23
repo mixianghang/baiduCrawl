@@ -75,7 +75,7 @@ def sort_by_value(d):
 if __name__=="__main__":
     
     nums = getNums(raw_input(u'enter the absolute path of your txt file containing nums: '))
-    # nums = getNums('/Users/apple/Desktop/data/countBrandMobile.txt')
+    # nums = getNums('/Users/apple/Desktop/count.txt')
     products = [u'苹果',u'三星',u'小米',u'诺基亚',u'中兴',u'华为',u'酷派',u'联想']
     table = toNumTable(nums,products)
     pair = getCompare(products)
