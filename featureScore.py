@@ -3,10 +3,10 @@
 
 
 def uniSegSents(compete_sent_seg):
-    feature1 = [u'总评', u'创新力', u'知名度']
-    feature2 = [u'硬件配置', u'电池', u'cup', u'边框', u'颜色']
-    feature3 = [u'用户体验', u'游戏', u'铃声', u'资源', u'维修', u'售后']
-    feature4 = [u'系统', u'操控性', u'流畅度']
+    feature1 = [u'总评', u'创新力', u'知名度', u'名气', u'品牌']
+    feature2 = [u'硬件', u'内存', u'cup', u'电池', u'重量'，u'尺寸',u'材质']
+    feature3 = [u'用户体验', u'游戏', u'应用', u'手感', u'外观', u'操控性',u'流畅度', u'售后']
+    #feature4 = [u'系统', u'操控性', u'流畅度']
     feaComp1, feaComp2, feaComp3, feaComp4 = [], [], [], [], []
     for c in compete_sent_seg:
         for f in feature1:
