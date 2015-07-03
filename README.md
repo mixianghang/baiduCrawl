@@ -27,3 +27,6 @@ This script is used to contine writing certain pages which is interrupted in the
 
 # dict.txt
 <br>该文件是论文《基于比较句的网络用户情感分析》用到的情感词典，数据来源于网络和个人整理。
+
+# sentiWord-dict.txt
+<br>该文件是特征计分时使用的情感分值词典。
