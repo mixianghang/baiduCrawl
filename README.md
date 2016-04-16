@@ -1,4 +1,4 @@
-本项目是对《基于比较句的网络用户情感》中提出的“比较句情感分析”模型的实现。
+本项目是对paper<a href = "http://pages.iu.edu/~penghao/thesis.pdf">《基于比较句的网络用户情感》</a>中提出的“比较句情感分析”模型的实现。
 <br>其中的baiduSearch.py和baiduGetFile.py文件可以单独使用，用于在命令行进行百度搜索，每页显示结果的标题和摘要。
 
 # baiduSearch.py
